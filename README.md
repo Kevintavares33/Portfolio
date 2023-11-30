@@ -5,5 +5,5 @@
 
 # Stacks:
   React.js
-  TailWild
+  TailWind
   React Hooks
