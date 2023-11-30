@@ -54,8 +54,8 @@ const About = () => {
             Production 
             </div>
             <div className='flex gap-x-8 items-center ]'>
-              <button className='btn btn-lg mt-[20px]'>contact Me</button>
-              <a href='#' className='text-gradient btn-link mt-[14px]'>
+             <a href='https://wa.me/message/5T5KCG3OVEYSJ1'><button className='btn btn-lg mt-[20px]'>contact Me</button></a> 
+              <a href='https://github.com/Kevintavares33' className='text-gradient btn-link mt-[14px]'>
                 My Portifolio
               </a>
             </div>

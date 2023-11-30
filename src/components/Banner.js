@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import Image from '../assets/moldura-perfil.png';
 import { fadeIn } from '../variants';
@@ -47,8 +47,8 @@ const Banner = () => {
            
            <motion.div variants={fadeIn('up',0.7)} initial='hidden' 
           whileInView={'show'} viewport={{once:false,amount:0.7}}  className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-             <button className='btn btn-lg'>Contact Me</button>
-             <a href='#' className='text-gradient btn-link'>My Portifolio</a>
+           <a href='https://wa.me/message/5T5KCG3OVEYSJ1'><button className='btn btn-lg'>Contact Me</button></a>  
+             <a href='https://github.com/Kevintavares33' className='text-gradient btn-link'>My Portifolio</a>
            </motion.div>
         
         {/* social m*/ }
@@ -56,16 +56,20 @@ const Banner = () => {
           whileInView={'show'} viewport={{once:false,amount:0.7}} 
            className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
           
-         <a href='#'>
+         <a href='https://github.com/Kevintavares33'>
             <FaGithub/>
           </a>
           
-          <a href='#'>
+          <a href='https://www.instagram.com/kevintavares_6/'>
             <FaInstagram/>
           </a>
           
-          <a href='#'>
+          <a href='https://www.linkedin.com/in/kevin-tavares-473091199/'>
             <FaLinkedin/>
+          </a>
+
+          <a href='https://wa.me/message/5T5KCG3OVEYSJ1'>
+            <FaWhatsapp/>
           </a>
         
         </motion.div>

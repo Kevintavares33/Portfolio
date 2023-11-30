@@ -8,13 +8,13 @@ const Services = () => {
   const Service = [
     {
       name:'Front-end Web Engineer',
-      description: 'lorksnasnaisniniasasansamosdososwos',
+      description: 'Full-Stack React + Java focus on Front-End today I am responsible for developing new components and maintaining existing codes. consuming GOV APi according to the proposed system design',
       Link: 'Learn More'
     },
 
     {
       name:'Mobile Engineer',
-      description: 'lorksnasnaisniniasasansamosdososwos',
+      description: 'l Currently focused on Mobile development, I currently have 2 React Native projects developed, one of them consuming the weather API, to manipulate data with axius and display it on the screen with React Native',
       Link: 'Learn More'
     }
 
@@ -32,8 +32,9 @@ const Services = () => {
                   className='flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
               <h2 className='h2 text-accent mb-6'>What I do.</h2>
               <h3 className='h3 max-w-[455px] mb-16'>
-              I'm a Software Engineer ,
-             specialist in front-end development certified by Meta (Facebook). 
+              I develop in react .js for web applications,
+               I am currently dedicated to Mobile development
+                in React Native swift and kotlin.
               </h3>
               <button className='btn btn-sm'>See my Work</button>
             </motion.div>
@@ -55,10 +56,10 @@ const Services = () => {
                            </div>
                           
                           <div className='flex flex-col flex-1 items-end '>
-                            <a href='#' className='bnt w-9 h-9 mb-[42px] flex justify-center items-center'>
+                            <a href='https://github.com/Kevintavares33' className='bnt w-9 h-9 mb-[42px] flex justify-center items-center'>
                               <BsArrowUpRight/>
                             </a>
-                            <a href='#' className='text-gradient'>{Link}</a>
+                            <a href='https://www.linkedin.com/in/kevin-tavares-473091199/' className='text-gradient'>{Link}</a>
                           </div>
                         </div>
                       )
