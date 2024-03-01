@@ -60,7 +60,7 @@ const Banner = () => {
             <FaGithub/>
           </a>
           
-          <a href='https://www.instagram.com/kevintavares_6/'>
+          <a href='https://www.instagram.com/kevintavares_3/'>
             <FaInstagram/>
           </a>
           
@@ -68,7 +68,7 @@ const Banner = () => {
             <FaLinkedin/>
           </a>
 
-          <a href='https://wa.me/message/5T5KCG3OVEYSJ1'>
+          <a href='https://wa.me/556193030000'>
             <FaWhatsapp/>
           </a>
         

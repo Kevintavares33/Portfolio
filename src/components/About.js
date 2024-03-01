@@ -47,14 +47,14 @@ const About = () => {
             <div className='text-[40px] font-tertiary text-gradient mb-2'>
               {
                 inView ?
-                <CountUp start={0} end={4} duration={5}/>  : null}
+                <CountUp start={0} end={5} duration={5}/>  : null}
             </div>
 
             <div className='font-primary text-sm tracking-[2px]'>Projects Freelancer in<br/> 
             Production 
             </div>
             <div className='flex gap-x-8 items-center ]'>
-             <a href='https://wa.me/message/5T5KCG3OVEYSJ1'><button className='btn btn-lg mt-[20px]'>contact Me</button></a> 
+             <a href='https://wa.me/556193030000'><button className='btn btn-lg mt-[20px]'>contact Me</button></a> 
               <a href='https://github.com/Kevintavares33' className='text-gradient btn-link mt-[14px]'>
                 My Portifolio
               </a>

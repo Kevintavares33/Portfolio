@@ -17,7 +17,7 @@ const Work = () => {
                       <h2 className='h2 leading-tight text-accent text-[30px]'>My<br/> Latest 
                       Work.
                       </h2>
-                      <p className='max-w-sm mb-10 text-[14px]'> 
+                      <p className='max-w-sm mb-10 text-[17px]'> 
                       Web and Mobile App Development
                       </p>
                       <button className='btn btn-sm'>View all projects</button>
@@ -173,6 +173,62 @@ const Work = () => {
                            </div>
                      
                      </div>
+                    
+                    {/*init*/}
+                     <div className='group relative overflow-hidden border-2 
+                     border-white/50 rounded-xl '>
+                        {/*overlay*/}
+                        <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'>
+                        </div>
+                        
+                          {/*img*/}
+                           
+                          <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='port-foto1'/>
+                          
+                            {/*pretittle*/}
+                            
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 
+                                            transition-all duration-500 z-50'> 
+                           <a href='https://github.com/Kevintavares33/App-Weather-api'> <span className='text-gradient'>Mobile Engineer</span></a>
+                            </div>
+                            
+                                 {/*tittle*/}
+                                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 
+                                                 transition-all duration-700 z-50'>
+                                <a href='https://github.com/Kevintavares33/App-Weather-api'>  <span className='text-3x1 text-white'>Weather API</span></a> 
+                           </div>
+                     
+                      </div>
+
+                       {/*init*/}
+                     <div className='group relative overflow-hidden border-2 
+                     border-white/50 rounded-xl '>
+                        {/*overlay*/}
+                        <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'>
+                        </div>
+                        
+                          {/*img*/}
+                           
+                          <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='port-foto1'/>
+                          
+                            {/*pretittle*/}
+                            
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 
+                                            transition-all duration-500 z-50'> 
+                           <a href='https://github.com/Kevintavares33/App-Weather-api'> <span className='text-gradient'>Mobile Engineer</span></a>
+                            </div>
+                            
+                                 {/*tittle*/}
+                                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 
+                                                 transition-all duration-700 z-50'>
+                                <a href='https://github.com/Kevintavares33/App-Weather-api'>  <span className='text-3x1 text-white'>Weather API</span></a> 
+                           </div>
+                     
+                     </div>
+
+
+                     
+
                 </div>
               </div>
           </div>
