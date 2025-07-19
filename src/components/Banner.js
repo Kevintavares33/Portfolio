@@ -60,7 +60,7 @@ const Banner = () => {
             <FaGithub/>
           </a>
           
-          <a href='https://www.instagram.com/kevintavares_3/'>
+          <a href='https://www.instagram.com/_darkknight333/'>
             <FaInstagram/>
           </a>
           
