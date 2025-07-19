@@ -1,10 +1,10 @@
 # Hello Welcome...
-# Olá Seja bem vindo.
+ Olá Seja bem vindo.
 
-<a href='https://portfolio-kevintavares.vercel.app/'>Click Here</a>
+# <a href='https://portfolio-kevintavares.vercel.app/'> Click Here</a>
 
 
 # Stacks:
   React.js
-  TailWind
+  tailwindcss
   React Hooks
