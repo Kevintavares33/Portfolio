@@ -35,11 +35,14 @@ const About = () => {
       className='flex-1'>
         <h2 className='h2 text-accent'>About me.</h2>
         <h3 className='h3 mb-4'>
-          I'm a Software Engineer , specialist in front-end development certified by Meta (Facebook). 
+            I'm a Software Engineer with a strong background in full-stack development, currently specializing in back-end systems using Java and scalable architectures.
         </h3>
         <p className='mb-6'>
-        I am currently a Full-Stack Engineer in a government agency in my country, <br/>
-         where we serve around 2 thousand monthly accesses.
+            Throughout my journey, I've worked across critical domains like healthcare,
+            social security, and payment systems, delivering robust solutions in both web and mobile platforms. I'm passionate about building efficient and secure systems, modernizing legacy platforms, and integrating with financial APIs, cloud services, and external systems.
+
+            Certified as a Professional Front-End Developer by Meta (Facebook),
+            I bring a complete engineering perspective — from intuitive UIs to resilient back-end services.
         </p>
        {/* stats*/ }
        <div className='flex '>

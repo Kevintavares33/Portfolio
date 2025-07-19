@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.svg';
+import Resume from '../assets/ResumeKevinTavares.pdf'
 const Header = () => {
   return (
   <header className=' py-8'>
@@ -12,7 +13,7 @@ const Header = () => {
         </a>
         {/* button */}
   
-      <a href='https://wa.me/556193030000'> <button className='btn btn-sm'>Work with Me</button></a>
+      <a href={Resume} download='Resume'> <button className='btn btn-sm'>Donwload Curriculum</button></a>
       </div>
 
     </div>

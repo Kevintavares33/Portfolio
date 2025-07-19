@@ -24,9 +24,9 @@ const Banner = () => {
             <span className='text-white mr-4'>I am a</span>
         
             <TypeAnimation sequence={[
-             'Front End Engineer',
+             'Software Engineer',
           2000,
-             'Mobile Engineer',
+             'Java Developer',
           2000,
              'Full-Stack Engineer',
           2000,

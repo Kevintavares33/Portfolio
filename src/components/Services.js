@@ -7,14 +7,26 @@ import { fadeIn } from '../variants';
 const Services = () => {
   const Service = [
     {
-      name:'Front-end Web Engineer',
-      description: 'Full-Stack React + Java focus on Front-End today I am responsible for developing new components and maintaining existing codes. consuming GOV APi according to the proposed system design',
+      name:'Back-end Engineer',
+      description: 'Development of robust microservices with Java, Spring Boot, Quarkus, and .NET 8\n' +
+          '\n' +
+          'Integration with payment APIs and POS systems (e.g., VERO, Mercado Livre)\n' +
+          '\n' +
+          'Event-driven architecture with Kafka and RabbitMQ\n' +
+          '\n' +
+          'Cloud-native solutions with Azure and AWS\n' +
+          '\n' +
+          'SQL performance optimization in PostgreSQL and SQL Server',
       Link: 'Learn More'
     },
 
     {
-      name:'Mobile Engineer',
-      description: 'l Currently focused on Mobile development, I currently have 2 React Native projects developed, one of them consuming the weather API, to manipulate data with axius and display it on the screen with React Native',
+      name:'Front-end Engineer',
+      description: 'Certified by Meta as a Professional Front-End Developer\n' +
+          '\n' +
+          'Built modern UIs with React.js, Vue.js (Quasar), and Tailwind CSS\n' +
+          '\n' +
+          'Experience with institutional design systems, accessibility, and responsive layouts',
       Link: 'Learn More'
     }
 
@@ -32,9 +44,8 @@ const Services = () => {
                   className='flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
               <h2 className='h2 text-accent mb-6'>What I do.</h2>
               <h3 className='h3 max-w-[455px] mb-16'>
-              I develop in react .js for web applications,
-               I am currently dedicated to Mobile development
-                in React Native swift and kotlin.
+                  I specialize in back-end development with a strong focus on microservices architecture — designing,
+                  building, and maintaining scalable and reliable systems for high-demand environments...
               </h3>
               <button className='btn btn-sm'>See my Work</button>
             </motion.div>

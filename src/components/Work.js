@@ -17,9 +17,7 @@ const Work = () => {
                       <h2 className='h2 leading-tight text-accent text-[30px]'>My<br/> Latest 
                       Work.
                       </h2>
-                      <p className='max-w-sm mb-10 text-[17px]'> 
-                      Web and Mobile App Development
-                      </p>
+
                       <button className='btn btn-sm'>View all projects</button>
                       </div>
         
