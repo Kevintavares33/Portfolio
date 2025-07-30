@@ -5,7 +5,7 @@ const Header = () => {
   return (
   <header className=' py-8'>
     <div className='container mx-auto'>
-      <div className='flex justify-between items-center'>
+      <div className='container mx-auto flex justify-between items-center'>
         {/*logo*/}
         <a href='#'>
   
@@ -13,7 +13,7 @@ const Header = () => {
         </a>
         {/* button */}
   
-      <a href={Resume} download='Resume'> <button className='btn btn-sm'>Donwload Curriculum</button></a>
+      <a href={Resume} download='Resume'> <button className='btn btn-sm'>Donwload CV</button></a>
       </div>
 
     </div>
