@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.svg';
-import Resume from '../assets/ResumeKevinTavares.pdf'
+import Resume from '../assets/ResumeKevint.pdf'
 const Header = () => {
   return (
   <header className=' py-8'>
