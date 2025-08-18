@@ -13,7 +13,7 @@ const Header = () => {
         </a>
         {/* button */}
   
-      <a href={Resume} download='Resume'> <button className='btn btn-sm'>Donwload CV</button></a>
+      <a href={Resume} download='Resume'> <button className='btn btn-sm ml-4'>Donwload CV</button></a>
       </div>
 
     </div>
