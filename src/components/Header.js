@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from '../assets/logo.svg';
-import Resume from '../assets/ResumeKevint.pdf'
+import React from "react";
+import logo from "../assets/logo.svg";
+import CV from "../assets/cv.pdf";
 const Header = () => {
   return (
-  <header className=' py-8'>
-    <div className='container mx-auto'>
-      <div className='container mx-auto flex justify-between items-center'>
-        {/*logo*/}
-        <a href='#'>
-  
-          <img src={logo} alt='logo.svg'/>
-        </a>
-        {/* button */}
-  
-      <a href={Resume} download='Resume'> <button className='btn btn-sm ml-4'>Donwload CV</button></a>
-      </div>
+    <header className=" py-8">
+      <div className="container mx-auto">
+        <div className="container mx-auto flex justify-between items-center">
+          {/*logo*/}
+          <a href="#">
+            <img src={logo} alt="logo.svg" />
+          </a>
+          {/* button */}
 
-    </div>
-    
+          <a href={CV} download="CV">
+            {" "}
+            <button className="btn btn-sm ml-4">Donwload CV</button>
+          </a>
+        </div>
+      </div>
     </header>
-)};
+  );
+};
 
 export default Header;
